@@ -127,6 +127,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 1px;
+    transition: color var(--time-duration);
 
 }
 
@@ -430,7 +431,7 @@ img {
 .team-item-icon {
     display: flex;
     justify-content: center;
-    gap: 22px;
+    gap: 10px;
 }
 
 .team-link-icon {
@@ -485,7 +486,8 @@ img {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     fill: #AFB1B8;
-    transition: fill var(--time-duration);
+    transition: fill var(--time-duration),
+    color var(--time-duration);
 }
 
 
@@ -533,11 +535,7 @@ img {
     background-color: #f5f4fa;
     border: 1px solid transparent;
     border-radius: 4px;
-    transition: background-color var(--time-duration);
-
-
-
-
+    transition: background-color var(--time-duration), var(--time-duration);
 }
 
 .portfolio-button:hover,
@@ -584,17 +582,11 @@ img {
     transition: box-shadow var(--time-duration);
 }
 
-
-
 .main-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 56px;
-}
-
-.main-link {
-    width: calc((100%-60px)/3);
 }
 
 .main-item:hover,
