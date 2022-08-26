@@ -113,6 +113,7 @@ img {
 .contact-icon {
     fill: #757575;
     margin-right: 10px;
+    transition: fill var(--time-duration);
 }
 
 .header-nav {
@@ -377,10 +378,7 @@ img {
     border: 1px solid transparent;
     margin-top: 50px;
     display: flex;
-}
-
-.team-list .team-item+.team-item {
-    margin-left: auto;
+    gap: 10px;
 }
 
 .team {
@@ -578,10 +576,6 @@ img {
 }
 
 /* кнопки */
-.main-item {
-    transition: box-shadow var(--time-duration);
-}
-
 .main-list {
     display: flex;
     flex-wrap: wrap;
@@ -589,10 +583,15 @@ img {
     margin-top: 56px;
 }
 
-.main-item:hover,
-.main-item:focus,
-.main-item:hover .portfolio-text,
-.main-item:focus .portfolio-text {
+.main-link {
+    display: block;
+    transition: box-shadow var(--time-duration);
+}
+
+.main-link:hover,
+.main-link:focus,
+.main-link:hover .portfolio-text,
+.main-link:focus .portfolio-text {
     transform: translateY(0%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
