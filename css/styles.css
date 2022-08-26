@@ -457,7 +457,7 @@ img {
 
 /*1 page */
 
-.portfolio {
+.portfolio__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -467,12 +467,10 @@ img {
     color: #212121;
 
     margin: 0 auto;
+    gap: 8px;
 }
 
-.portfolio .portfolio-list+.portfolio-list {
-    margin-left: 8px;
 
-}
 
 .portfolio-button {
 
