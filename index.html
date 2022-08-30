@@ -340,14 +340,13 @@
     </section>
 </main>
 <footer class="fotter">
-    <div class="container fotter">
+    <div class=" container fotter">
         <div>
             <a href="./index.html" class="fotter__logo link" lang="en">Web<span class="fotter__lg link">Studio</span>
             </a>
             <address class="address">
                 <ul class="addres__item">
-                    <li class="address__list"><a href="" class="address__white link">г. Киев, пр-т Леси Украинки,
-                            26</a></li>
+                    <li class="address__list"><a href="" class="address__white link">г. Киев, пр-т Леси Украинки,26</a></li>
                     <li class="address__list"><a href="mailto:info@example.com"
                             class="address__link link">info@example.com</a></li>
                     <li class="address__list"><a href="tel:+380991111111" class="address__link link">+38 099 111 11 11</a>
@@ -407,11 +406,11 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="button__modal" data-modal-close>
-            <svg class="modal__icon" width="18" height="18">
+            <svg class="modal__icon" width="11" height="11">
                 <use href="./images//symbol-defs.svg#icon-closed"></use>
             </svg>
         </button>
-        <p class="modal-tittle">Залиште свої дані, ми вам передзвонимо</p>
+        <p class="modal__tittle">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal__form">
             <div class="input__field">
                 <label class="input__tittle">Ім'я</label>
@@ -426,7 +425,7 @@
                 <label class="input__tittle">Телефон</label>
                 <div class="input__wrap">
                     <input type="text" class="modal__input" name="user-tel">
-                    <svg class="input__icom" width="13" height="13">
+                    <svg class="input__icom" width="18" height="18">
                         <use href="./images/symbol-defs.svg#icon-phone"></use>
                     </svg>
                 </div>
@@ -435,7 +434,7 @@
                 <label class="input__tittle">Пошта</label>
                 <div class="input__wrap">
                     <input type="text" class="modal__input" name="user-email">
-                    <svg class="input__icom" width="15" height="12">
+                    <svg class="input__icom" width="18" height="18">
                         <use href="./images/symbol-defs.svg#icon-mail"></use>
                     </svg>
                 </div>
@@ -444,7 +443,7 @@
                 <label for="user-comment" class="input__tittle">Коментар</label>
                 <textarea name="user-comment" id="user-comment" class="modal__text"
                     placeholder="Введіть текст"></textarea>
-            </div>
+            </div></form>
             <div class="input__field">
                 <input type="checkbox" name="user-policy" value="true" id="user-policy"
                     class="input__check">
@@ -452,12 +451,12 @@
                         <svg class="check__true" width="16" height="15">
                             <use href="./images/symbol-defs.svg#icon-check"></use>
                         </svg></span>
-                    <p>Погоджуюся з розсилкою та приймаю <a href="" class="policy__doc">Умови договору</a></p>  </label>
+                    Погоджуюся з розсилкою та приймаю <a href="" class="policy__doc">Умови договору</a> 
+                </label>
                 <label>
                     <button class="modal__button" type="submit">Відправити</button>
                 </label>
-
-        </form>
+            </div>
     </div>
 </div>
 <script src="./js/modal.js"></script>

@@ -584,7 +584,8 @@ img {
 }
 
 .container.fotter {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     align-items: baseline;
     display: flex;
 }
@@ -799,6 +800,7 @@ img {
 }
 
 .modal__tittle {
+    text-align: center;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -824,6 +826,11 @@ img {
 
 .modal__icon {
     fill: #000000;
+}
+
+.modal__icon:hover,
+.modal__icon:focus {
+fill: var(--accent-color);
 }
 
 .input__field {
@@ -860,7 +867,7 @@ img {
 
 .input__icom {
     position: absolute;
-    left: 15px;
+    left: 21px;
     top: 50%;
     transform: translate(-50%, -50%);
     transition: fill var(--time-duration);
