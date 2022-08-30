@@ -826,6 +826,7 @@ img {
 
 .modal__icon {
     fill: #000000;
+    transition: fill var(--time-duration);
 }
 
 .modal__icon:hover,
@@ -911,6 +912,8 @@ fill: var(--accent-color);
 
     position: absolute;
 }
+
+
 
 .check__text {
     font-weight: 400;

@@ -346,10 +346,12 @@
             </a>
             <address class="address">
                 <ul class="addres__item">
-                    <li class="address__list"><a href="" class="address__white link">г. Киев, пр-т Леси Украинки,26</a></li>
+                    <li class="address__list"><a href="" class="address__white link">г. Киев, пр-т Леси Украинки,26</a>
+                    </li>
                     <li class="address__list"><a href="mailto:info@example.com"
                             class="address__link link">info@example.com</a></li>
-                    <li class="address__list"><a href="tel:+380991111111" class="address__link link">+38 099 111 11 11</a>
+                    <li class="address__list"><a href="tel:+380991111111" class="address__link link">+38 099 111 11
+                            11</a>
                     </li>
                 </ul>
             </address>
@@ -443,20 +445,22 @@
                 <label for="user-comment" class="input__tittle">Коментар</label>
                 <textarea name="user-comment" id="user-comment" class="modal__text"
                     placeholder="Введіть текст"></textarea>
-            </div></form>
-            <div class="input__field">
-                <input type="checkbox" name="user-policy" value="true" id="user-policy"
-                    class="input__check">
-                <label for="user-policy" class="check__text"><span>
-                        <svg class="check__true" width="16" height="15">
-                            <use href="./images/symbol-defs.svg#icon-check"></use>
-                        </svg></span>
-                    Погоджуюся з розсилкою та приймаю <a href="" class="policy__doc">Умови договору</a> 
-                </label>
-                <label>
-                    <button class="modal__button" type="submit">Відправити</button>
-                </label>
             </div>
+        </form>
+        <div class="input__field">
+            <input type="checkbox" name="user-policy" value="true" id="user-policy" class="input__check">
+            <label for="user-policy" class="check__text"><span>
+                    <svg class="check__true" width="16" height="15">
+                        <use href="./images/symbol-defs.svg#icon-check"></use>
+                    </svg>
+                </span>
+                Погоджуюся з розсилкою та приймаю  &nbsp;
+                <a href="" class="policy__doc">Умови договору</a>
+            </label>
+            <label>
+                <button class="modal__button" type="submit">Відправити</button>
+            </label>
+        </div>
     </div>
 </div>
 <script src="./js/modal.js"></script>
